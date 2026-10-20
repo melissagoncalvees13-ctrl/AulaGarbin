@@ -25,7 +25,7 @@ st.caption(
 
 # Carrega o CSV automaticamente
 try:
-    df = pd.read_csv("dengue_brasil_2000_2023.csv")
+    df = pd.read_csv("dengue_brasil_2000_2023-1.csv")
 except FileNotFoundError:
     st.error(
         "O arquivo dengue_brasil_2000_2023.csv não foi encontrado. "
